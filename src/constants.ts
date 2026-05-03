@@ -1,67 +1,85 @@
+// Импортираме снимките от папката Images, която е извън src (затова ползваме ../)
+import kalverDesktop from "../Images/Kalver desktop.jpg";
+import kalverMobile from "../Images/Kalver mobile.jpg";
+import ymgoodsDesktop from "../Images/Ymgoods desktop.jpg";
+import yumgoodsMobile from "../Images/Yumgoods mobile.jpg";
+import paydropDesktop from "../Images/Paydrop desktop.jpg";
+import paydropMobile from "../Images/Paydrop mobile.jpg";
+import veloDesktop from "../Images/Velo desktoo.jpg";
+import veloMobile from "../Images/Velo mobile.jpg";
+import poochDesktop from "../Images/Pooch desktop.jpg";
+import poochMobile from "../Images/Pooch mobile.jpg";
+import heymanDesktop from "../Images/Heyman desktop.jpg";
+import heymanMobile from "../Images/Heyman mobile.jpg";
+import colorfulDesktop from "../Images/Colorful creatures desktop.jpg";
+import colorfulMobile from "../Images/Colorful creatures mobile.jpg";
+import diveDesktop from "../Images/Dive for lives desktop.jpg";
+import diveMobile from "../Images/Dive for lives mobile.jpg";
+
 export const PROJECTS = [
   {
     title: "Klaver",
     description: "Ultra-premium fintech analytics platform for high-net-worth portfolio management.",
     tech: ["Next.js", "TypeScript", "D3.js", "Tailwind"],
     link: "https://klaver-psi.vercel.app/",
-    desktopImage: "/src/assets/images/regenerated_image_1777748535053.jpg",
-    mobileImage: "/src/assets/images/regenerated_image_1777748530086.jpg"
+    desktopImage: kalverDesktop,
+    mobileImage: kalverMobile
   },
   {
     title: "Yum Goods",
     description: "Custom-engineered e-commerce experience with advanced asset optimization and real-time inventory tracking.",
     tech: ["React", "Custom Tooling", "CI/CD Pipeline", "Edge Functions"],
     link: "https://yumgoods.vercel.app/",
-    desktopImage: "/src/assets/images/regenerated_image_1777748537857.jpg",
-    mobileImage: "/src/assets/images/regenerated_image_1777748542507.jpg"
+    desktopImage: ymgoodsDesktop,
+    mobileImage: yumgoodsMobile
   },
   {
     title: "Paydrop",
     description: "Membership and Web3-ready payout infrastructure for modern decentralized organizations.",
     tech: ["Next.js-14", "Stripe", "PostgreSQL", "Supabase"],
     link: "https://paydrop-ten.vercel.app/",
-    desktopImage: "/src/assets/images/regenerated_image_1777748545607.jpg",
-    mobileImage: "/src/assets/images/regenerated_image_1777748546875.jpg"
+    desktopImage: paydropDesktop,
+    mobileImage: paydropMobile
   },
   {
     title: "Velo",
     description: "Minimalist artisan froyo brand experience focusing on immersive interaction and smooth transitions.",
     tech: ["Three.js", "Framer Motion", "React"],
     link: "https://velo-khaki.vercel.app/",
-    desktopImage: "/src/assets/images/regenerated_image_1777748548228.jpg",
-    mobileImage: "/src/assets/images/regenerated_image_1777748550271.jpg"
+    desktopImage: veloDesktop,
+    mobileImage: veloMobile
   },
   {
     title: "Pooch",
     description: "Full-stack pet adoption ecosystem bridging the gap between local shelters and new owners.",
     tech: ["React", "Firebase", "TypeScript", "Vercel"],
     link: "https://pooch-f7t1-git-main-fvik8s-projects.vercel.app/",
-    desktopImage: "/src/assets/images/regenerated_image_1777748553984.jpg",
-    mobileImage: "/src/assets/images/regenerated_image_1777748556435.jpg"
+    desktopImage: poochDesktop,
+    mobileImage: poochMobile
   },
   {
     title: "Hey Man",
     description: "A community-first communication suite designed for real-time collaboration and security.",
     tech: ["WebRTC", "Socket.io", "Node.js", "Express"],
     link: "https://hey-man.vercel.app/",
-    desktopImage: "/src/assets/images/regenerated_image_1777748557841.jpg",
-    mobileImage: "/src/assets/images/regenerated_image_1777748559572.jpg"
+    desktopImage: heymanDesktop,
+    mobileImage: heymanMobile
   },
   {
     title: "Colorful Creatures",
     description: "Educational museum experience utilizing high-fidelity Canvas animations and interactive storytelling.",
     tech: ["Canvas API", "SASS", "Gatsby", "Vercel"],
     link: "https://colorful-creatures.vercel.app/",
-    desktopImage: "/src/assets/images/regenerated_image_1777749143277.jpg",
-    mobileImage: "/src/assets/images/regenerated_image_1777749145686.jpg"
+    desktopImage: colorfulDesktop,
+    mobileImage: colorfulMobile
   },
   {
     title: "Dive for Lives",
     description: "NGO platform for marine conservation, featuring live data visualization of oceanic health.",
     tech: ["Chart.js", "GraphQL", "Python-Serverless", "Tailwind"],
     link: "https://dive-for-lives.vercel.app/",
-    desktopImage: "/src/assets/images/regenerated_image_1777749147611.jpg",
-    mobileImage: "/src/assets/images/regenerated_image_1777749149055.jpg"
+    desktopImage: diveDesktop,
+    mobileImage: diveMobile
   }
 ];
 
