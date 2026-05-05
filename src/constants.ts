@@ -53,7 +53,7 @@ export const PROJECTS = [
     title: "Pooch",
     description: "Full-stack pet adoption ecosystem bridging the gap between local shelters and new owners.",
     tech: ["React", "Firebase", "TypeScript", "Vercel"],
-    link: "https://pooch-f7t1-git-main-fvik8s-projects.vercel.app/",
+    link: "https://pooch.vercel.app/",
     desktopImage: poochDesktop,
     mobileImage: poochMobile
   },
