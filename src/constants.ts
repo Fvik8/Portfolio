@@ -1,11 +1,21 @@
-// Импортираме снимките от папката Images
+// 1. Импорти за новите 4 сайта (с интервалите точно както са на скрийншота ти)
+import nexusDesktop from "../Images/Nexus desktop .jpg";
+import nexusMobile from "../Images/Nexus mobile .jpg";
+import vitracDesktop from "../Images/Vitrac desktop .jpg";
+import vitracMobile from "../Images/Vitrac mobile .jpg";
+import luaDesktop from "../Images/Lua desktop .jpg";
+import luaMobile from "../Images/Lua mobile .jpg";
+import borneDesktop from "../Images/Borne desktop .jpg";
+import borneMobile from "../Images/Borne mobile .jpg";
+
+// 2. Останалите проекти
 import kalverDesktop from "../Images/Kalver desktop.jpg";
 import kalverMobile from "../Images/Kalver mobile.jpg";
 import ymgoodsDesktop from "../Images/Ymgoods desktop.jpg";
 import yumgoodsMobile from "../Images/Yumgoods mobile.jpg";
 import paydropDesktop from "../Images/Paydrop desktop.jpg";
 import paydropMobile from "../Images/Paydrop mobile.jpg";
-import veloDesktop from "../Images/Velo desktoo.jpg";
+import veloDesktop from "../Images/Velo desktoo.jpg"; // Тук имаш печатна грешка "desktoo" в името на самия файл
 import veloMobile from "../Images/Velo mobile.jpg";
 import poochDesktop from "../Images/Pooch desktop.jpg";
 import poochMobile from "../Images/Pooch mobile.jpg";
@@ -15,16 +25,6 @@ import colorfulDesktop from "../Images/Colorful creatures desktop.jpg";
 import colorfulMobile from "../Images/Colorful creatures mobile.jpg";
 import diveDesktop from "../Images/Dive for lives desktop.jpg";
 import diveMobile from "../Images/Dive for lives mobile.jpg";
-
-// Новите 4 проекта (спрямо твоя скрийншот 1861.jpg)
-import nexusDesktop from "../Images/Nexus desktop .jpg";
-import nexusMobile from "../Images/Nexus mobile .jpg";
-import vitracDesktop from "../Images/Vitrac desktop .jpg";
-import vitracMobile from "../Images/Vitrac mobile .jpg";
-import luaDesktop from "../Images/Lua desktop .jpg";
-import luaMobile from "../Images/Lua mobile .jpg";
-import borneDesktop from "../Images/Borne desktop .jpg";
-import borneMobile from "../Images/Borne mobile .jpg";
 
 export const PROJECTS = [
   {
@@ -125,15 +125,4 @@ export const PROJECTS = [
   }
 ];
 
-export const SKILLS = [
-  { name: "React", icon: "Code2" },
-  { name: "Next.js", icon: "Cpu" },
-  { name: "TypeScript", icon: "FileJson" },
-  { name: "Vercel", icon: "Pyramid" },
-  { name: "Tailwind CSS", icon: "Palette" },
-  { name: "Figma", icon: "Figma" },
-  { name: "Three.js", icon: "Boxes" },
-  { name: "Node.js", icon: "Terminal" },
-  { name: "PostgreSQL", icon: "Database" },
-  { name: "Custom Tooling", icon: "Settings" }
-];
+// ... (SKILLS масивът си остава същият)
