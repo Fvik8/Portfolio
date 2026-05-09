@@ -1,3 +1,6 @@
+// ВАЖНО: Тук не трябва да има никакви "import ... from '../Images/..."
+// Остави само тези два масива:
+
 export const PROJECTS = [
   {
     title: "Nexus",
