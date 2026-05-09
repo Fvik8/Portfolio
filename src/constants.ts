@@ -18,6 +18,35 @@ import diveMobile from "../Images/Dive for lives mobile.jpg";
 
 export const PROJECTS = [
   {
+    title: "Nexus",
+    description: "Modern networking platform with a focus on seamless connectivity and minimal interface design.",
+    image: "/images/nexus.jpg", // Увери се, че имаш скрийншот в public папката
+    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
+    link: "https://nexus-eosin-three-95.vercel.app/"
+  },
+  {
+    title: "Vitrac",
+    description: "High-fidelity digital experience for architectural visualization and structural aesthetics.",
+    image: "/images/vitrac.jpg",
+    tags: ["Framer Motion", "React", "Design Systems"],
+    link: "https://vitrac.vercel.app/"
+  },
+  {
+    title: "Lua",
+    description: "An immersive creative ecosystem designed for fluid interactions and dark-mode elegance.",
+    image: "/images/lua.jpg",
+    tags: ["Next.js", "UI/UX", "Optimization"],
+    link: "https://lua-gamma.vercel.app/"
+  },
+  {
+    title: "Born Brand",
+    description: "Premium branding showcase highlighting the intersection of corporate identity and digital performance.",
+    image: "/images/born-brand.jpg",
+    tags: ["Branding", "Frontend Engineering", "Vercel"],
+    link: "https://born-brand.vercel.app/"
+  }
+
+  {
     title: "Klaver",
     description: "Ultra-premium fintech analytics platform for high-net-worth portfolio management.",
     tech: ["Next.js", "TypeScript", "D3.js", "Tailwind"],
