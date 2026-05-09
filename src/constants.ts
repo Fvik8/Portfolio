@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-// 1. Новите 4 сайта (чисти имена)
+// Импорти за новите 4 сайта (след преименуването в GitHub)
 import nexusDesktop from "../Images/Nexus desktop.jpg";
 import nexusMobile from "../Images/Nexus mobile.jpg";
 import vitracDesktop from "../Images/Vitrac desktop.jpg";
@@ -13,7 +13,7 @@ import luaMobile from "../Images/Lua mobile.jpg";
 import borneDesktop from "../Images/Borne desktop.jpg";
 import borneMobile from "../Images/Borne mobile.jpg";
 
-// 2. Останалите проекти
+// Импорти за останалите проекти
 import kalverDesktop from "../Images/Kalver desktop.jpg";
 import kalverMobile from "../Images/Kalver mobile.jpg";
 import ymgoodsDesktop from "../Images/Ymgoods desktop.jpg";
