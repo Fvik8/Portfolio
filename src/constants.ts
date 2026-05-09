@@ -17,14 +17,14 @@ import diveDesktop from "../Images/Dive for lives desktop.jpg";
 import diveMobile from "../Images/Dive for lives mobile.jpg";
 
 // Новите 4 проекта (спрямо твоя скрийншот 1861.jpg)
-import nexusDesktop from "../Images/Nexus desktop.jpg";
-import nexusMobile from "../Images/Nexus mobile.jpg";
-import vitracDesktop from "../Images/Vitrac desktop.jpg";
-import vitracMobile from "../Images/Vitrac mobile.jpg";
-import luaDesktop from "../Images/Lua desktop.jpg";
-import luaMobile from "../Images/Lua mobile.jpg";
-import borneDesktop from "../Images/Borne desktop.jpg";
-import borneMobile from "../Images/Borne mobile.jpg";
+import nexusDesktop from "../Images/Nexus desktop .jpg";
+import nexusMobile from "../Images/Nexus mobile .jpg";
+import vitracDesktop from "../Images/Vitrac desktop .jpg";
+import vitracMobile from "../Images/Vitrac mobile .jpg";
+import luaDesktop from "../Images/Lua desktop .jpg";
+import luaMobile from "../Images/Lua mobile .jpg";
+import borneDesktop from "../Images/Borne desktop .jpg";
+import borneMobile from "../Images/Borne mobile .jpg";
 
 export const PROJECTS = [
   {
