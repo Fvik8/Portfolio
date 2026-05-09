@@ -1,9 +1,4 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
-// Импорти за новите 4 сайта (след преименуването в GitHub)
+// 1. Новите проекти (с точно един интервал, както е в GitHub)
 import nexusDesktop from "../Images/Nexus desktop.jpg";
 import nexusMobile from "../Images/Nexus mobile.jpg";
 import vitracDesktop from "../Images/Vitrac desktop.jpg";
@@ -13,14 +8,14 @@ import luaMobile from "../Images/Lua mobile.jpg";
 import borneDesktop from "../Images/Borne desktop.jpg";
 import borneMobile from "../Images/Borne mobile.jpg";
 
-// Импорти за останалите проекти
+// 2. Останалите проекти
 import kalverDesktop from "../Images/Kalver desktop.jpg";
 import kalverMobile from "../Images/Kalver mobile.jpg";
 import ymgoodsDesktop from "../Images/Ymgoods desktop.jpg";
 import yumgoodsMobile from "../Images/Yumgoods mobile.jpg";
 import paydropDesktop from "../Images/Paydrop desktop.jpg";
 import paydropMobile from "../Images/Paydrop mobile.jpg";
-import veloDesktop from "../Images/Velo desktop.jpg"; 
+import veloDesktop from "../Images/Velo desktoo.jpg"; // На скрийншота ти все още е "desktoo"
 import veloMobile from "../Images/Velo mobile.jpg";
 import poochDesktop from "../Images/Pooch desktop.jpg";
 import poochMobile from "../Images/Pooch mobile.jpg";
@@ -128,17 +123,4 @@ export const PROJECTS = [
     desktopImage: diveDesktop,
     mobileImage: diveMobile
   }
-];
-
-export const SKILLS = [
-  { name: "React", icon: "Code2" },
-  { name: "Next.js", icon: "Cpu" },
-  { name: "TypeScript", icon: "FileJson" },
-  { name: "Vercel", icon: "Pyramid" },
-  { name: "Tailwind CSS", icon: "Palette" },
-  { name: "Figma", icon: "Figma" },
-  { name: "Three.js", icon: "Boxes" },
-  { name: "Node.js", icon: "Terminal" },
-  { name: "PostgreSQL", icon: "Database" },
-  { name: "Custom Tooling", icon: "Settings" }
 ];
