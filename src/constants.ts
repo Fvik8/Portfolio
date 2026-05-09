@@ -1,4 +1,4 @@
-// Импортираме снимките от папката Images, която е извън src (затова ползваме ../)
+// Импортираме снимките
 import kalverDesktop from "../Images/Kalver desktop.jpg";
 import kalverMobile from "../Images/Kalver mobile.jpg";
 import ymgoodsDesktop from "../Images/Ymgoods desktop.jpg";
@@ -16,36 +16,43 @@ import colorfulMobile from "../Images/Colorful creatures mobile.jpg";
 import diveDesktop from "../Images/Dive for lives desktop.jpg";
 import diveMobile from "../Images/Dive for lives mobile.jpg";
 
+// Тук трябва да импортираш или добавиш снимки за новите 4 сайта, 
+// за да не стоят с празни линкове.
+// Ако нямаш мобилни версии за тях, можеш да ползваш десктоп снимката и за двете.
+
 export const PROJECTS = [
   {
     title: "Nexus",
     description: "Modern networking platform with a focus on seamless connectivity and minimal interface design.",
-    image: "/images/nexus.jpg", // Увери се, че имаш скрийншот в public папката
-    tags: ["Next.js", "TypeScript", "Tailwind CSS"],
-    link: "https://nexus-eosin-three-95.vercel.app/"
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    link: "https://nexus-eosin-three-95.vercel.app/",
+    desktopImage: "/images/nexus.jpg", // Смени с импорт, ако са в Images папката
+    mobileImage: "/images/nexus-mobile.jpg"
   },
   {
     title: "Vitrac",
     description: "High-fidelity digital experience for architectural visualization and structural aesthetics.",
-    image: "/images/vitrac.jpg",
-    tags: ["Framer Motion", "React", "Design Systems"],
-    link: "https://vitrac.vercel.app/"
+    tech: ["Framer Motion", "React", "Design Systems"],
+    link: "https://vitrac.vercel.app/",
+    desktopImage: "/images/vitrac.jpg",
+    mobileImage: "/images/vitrac-mobile.jpg"
   },
   {
     title: "Lua",
     description: "An immersive creative ecosystem designed for fluid interactions and dark-mode elegance.",
-    image: "/images/lua.jpg",
-    tags: ["Next.js", "UI/UX", "Optimization"],
-    link: "https://lua-gamma.vercel.app/"
+    tech: ["Next.js", "UI/UX", "Optimization"],
+    link: "https://lua-gamma.vercel.app/",
+    desktopImage: "/images/lua.jpg",
+    mobileImage: "/images/lua-mobile.jpg"
   },
   {
     title: "Born Brand",
     description: "Premium branding showcase highlighting the intersection of corporate identity and digital performance.",
-    image: "/images/born-brand.jpg",
-    tags: ["Branding", "Frontend Engineering", "Vercel"],
-    link: "https://born-brand.vercel.app/"
-  }
-
+    tech: ["Branding", "Frontend Engineering", "Vercel"],
+    link: "https://born-brand.vercel.app/",
+    desktopImage: "/images/born-brand.jpg",
+    mobileImage: "/images/born-brand-mobile.jpg"
+  },
   {
     title: "Klaver",
     description: "Ultra-premium fintech analytics platform for high-net-worth portfolio management.",
