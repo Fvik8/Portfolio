@@ -12,7 +12,7 @@ export const PROJECTS = [
     description: "High-fidelity digital experience for architectural visualization and structural aesthetics.",
     tech: ["Framer Motion", "React", "Design Systems"],
     link: "https://vitrac.vercel.app/",
-    desktopImage: "https://raw.githubusercontent.com/Fvik8/Portfolio/main/Images/Vitrac%20desktop.jpg",
+    desktopImage: "https://raw.githubusercontent.com/Fvik8/Portfolio/main/Images/Vtrac%20desktop.jpg",
     mobileImage: "https://raw.githubusercontent.com/Fvik8/Portfolio/main/Images/Vitrac%20mobile.jpg"
   },
   {
