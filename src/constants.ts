@@ -1,4 +1,4 @@
-// Импортираме снимките
+// Импортираме снимките от папката Images
 import kalverDesktop from "../Images/Kalver desktop.jpg";
 import kalverMobile from "../Images/Kalver mobile.jpg";
 import ymgoodsDesktop from "../Images/Ymgoods desktop.jpg";
@@ -16,9 +16,15 @@ import colorfulMobile from "../Images/Colorful creatures mobile.jpg";
 import diveDesktop from "../Images/Dive for lives desktop.jpg";
 import diveMobile from "../Images/Dive for lives mobile.jpg";
 
-// Тук трябва да импортираш или добавиш снимки за новите 4 сайта, 
-// за да не стоят с празни линкове.
-// Ако нямаш мобилни версии за тях, можеш да ползваш десктоп снимката и за двете.
+// Новите 4 проекта (спрямо твоя скрийншот 1861.jpg)
+import nexusDesktop from "../Images/Nexus desktop.jpg";
+import nexusMobile from "../Images/Nexus mobile.jpg";
+import vitracDesktop from "../Images/Vitrac desktop.jpg";
+import vitracMobile from "../Images/Vitrac mobile.jpg";
+import luaDesktop from "../Images/Lua desktop.jpg";
+import luaMobile from "../Images/Lua mobile.jpg";
+import borneDesktop from "../Images/Borne desktop.jpg";
+import borneMobile from "../Images/Borne mobile.jpg";
 
 export const PROJECTS = [
   {
@@ -26,32 +32,32 @@ export const PROJECTS = [
     description: "Modern networking platform with a focus on seamless connectivity and minimal interface design.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS"],
     link: "https://nexus-eosin-three-95.vercel.app/",
-    desktopImage: "/images/nexus.jpg", // Смени с импорт, ако са в Images папката
-    mobileImage: "/images/nexus-mobile.jpg"
+    desktopImage: nexusDesktop,
+    mobileImage: nexusMobile
   },
   {
     title: "Vitrac",
     description: "High-fidelity digital experience for architectural visualization and structural aesthetics.",
     tech: ["Framer Motion", "React", "Design Systems"],
     link: "https://vitrac.vercel.app/",
-    desktopImage: "/images/vitrac.jpg",
-    mobileImage: "/images/vitrac-mobile.jpg"
+    desktopImage: vitracDesktop,
+    mobileImage: vitracMobile
   },
   {
     title: "Lua",
     description: "An immersive creative ecosystem designed for fluid interactions and dark-mode elegance.",
     tech: ["Next.js", "UI/UX", "Optimization"],
     link: "https://lua-gamma.vercel.app/",
-    desktopImage: "/images/lua.jpg",
-    mobileImage: "/images/lua-mobile.jpg"
+    desktopImage: luaDesktop,
+    mobileImage: luaMobile
   },
   {
-    title: "Born Brand",
+    title: "Borne",
     description: "Premium branding showcase highlighting the intersection of corporate identity and digital performance.",
     tech: ["Branding", "Frontend Engineering", "Vercel"],
     link: "https://born-brand.vercel.app/",
-    desktopImage: "/images/born-brand.jpg",
-    mobileImage: "/images/born-brand-mobile.jpg"
+    desktopImage: borneDesktop,
+    mobileImage: borneMobile
   },
   {
     title: "Klaver",
