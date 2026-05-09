@@ -1,21 +1,26 @@
-// 1. Новите 4 сайта (с интервал преди .jpg, както е на снимка 1861.jpg)
-import nexusDesktop from "../Images/Nexus desktop .jpg";
-import nexusMobile from "../Images/Nexus mobile .jpg";
-import vitracDesktop from "../Images/Vitrac desktop .jpg";
-import vitracMobile from "../Images/Vitrac mobile .jpg";
-import luaDesktop from "../Images/Lua desktop .jpg";
-import luaMobile from "../Images/Lua mobile .jpg";
-import borneDesktop from "../Images/Borne desktop .jpg";
-import borneMobile from "../Images/Borne mobile .jpg";
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
 
-// 2. Старите проекти (нормални имена или специфични грешки)
+// 1. Новите 4 сайта (чисти имена)
+import nexusDesktop from "../Images/Nexus desktop.jpg";
+import nexusMobile from "../Images/Nexus mobile.jpg";
+import vitracDesktop from "../Images/Vitrac desktop.jpg";
+import vitracMobile from "../Images/Vitrac mobile.jpg";
+import luaDesktop from "../Images/Lua desktop.jpg";
+import luaMobile from "../Images/Lua mobile.jpg";
+import borneDesktop from "../Images/Borne desktop.jpg";
+import borneMobile from "../Images/Borne mobile.jpg";
+
+// 2. Останалите проекти
 import kalverDesktop from "../Images/Kalver desktop.jpg";
 import kalverMobile from "../Images/Kalver mobile.jpg";
 import ymgoodsDesktop from "../Images/Ymgoods desktop.jpg";
 import yumgoodsMobile from "../Images/Yumgoods mobile.jpg";
 import paydropDesktop from "../Images/Paydrop desktop.jpg";
 import paydropMobile from "../Images/Paydrop mobile.jpg";
-import veloDesktop from "../Images/Velo desktoo.jpg"; // Запазено "desktoo" от твоя скрийншот
+import veloDesktop from "../Images/Velo desktop.jpg"; 
 import veloMobile from "../Images/Velo mobile.jpg";
 import poochDesktop from "../Images/Pooch desktop.jpg";
 import poochMobile from "../Images/Pooch mobile.jpg";
@@ -123,4 +128,17 @@ export const PROJECTS = [
     desktopImage: diveDesktop,
     mobileImage: diveMobile
   }
+];
+
+export const SKILLS = [
+  { name: "React", icon: "Code2" },
+  { name: "Next.js", icon: "Cpu" },
+  { name: "TypeScript", icon: "FileJson" },
+  { name: "Vercel", icon: "Pyramid" },
+  { name: "Tailwind CSS", icon: "Palette" },
+  { name: "Figma", icon: "Figma" },
+  { name: "Three.js", icon: "Boxes" },
+  { name: "Node.js", icon: "Terminal" },
+  { name: "PostgreSQL", icon: "Database" },
+  { name: "Custom Tooling", icon: "Settings" }
 ];
