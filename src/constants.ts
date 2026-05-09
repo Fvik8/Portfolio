@@ -1,4 +1,4 @@
-// 1. Импорти за новите 4 сайта (с интервалите точно както са на скрийншота ти)
+// 1. Новите 4 сайта (с интервал преди .jpg, както е на снимка 1861.jpg)
 import nexusDesktop from "../Images/Nexus desktop .jpg";
 import nexusMobile from "../Images/Nexus mobile .jpg";
 import vitracDesktop from "../Images/Vitrac desktop .jpg";
@@ -8,14 +8,14 @@ import luaMobile from "../Images/Lua mobile .jpg";
 import borneDesktop from "../Images/Borne desktop .jpg";
 import borneMobile from "../Images/Borne mobile .jpg";
 
-// 2. Останалите проекти
+// 2. Старите проекти (нормални имена или специфични грешки)
 import kalverDesktop from "../Images/Kalver desktop.jpg";
 import kalverMobile from "../Images/Kalver mobile.jpg";
 import ymgoodsDesktop from "../Images/Ymgoods desktop.jpg";
 import yumgoodsMobile from "../Images/Yumgoods mobile.jpg";
 import paydropDesktop from "../Images/Paydrop desktop.jpg";
 import paydropMobile from "../Images/Paydrop mobile.jpg";
-import veloDesktop from "../Images/Velo desktoo.jpg"; // Тук имаш печатна грешка "desktoo" в името на самия файл
+import veloDesktop from "../Images/Velo desktoo.jpg"; // Запазено "desktoo" от твоя скрийншот
 import veloMobile from "../Images/Velo mobile.jpg";
 import poochDesktop from "../Images/Pooch desktop.jpg";
 import poochMobile from "../Images/Pooch mobile.jpg";
@@ -124,5 +124,3 @@ export const PROJECTS = [
     mobileImage: diveMobile
   }
 ];
-
-// ... (SKILLS масивът си остава същият)
